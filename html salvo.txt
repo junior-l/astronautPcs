@@ -1,0 +1,31 @@
+body
+    main
+        section class=bgLayout
+            h1Peças para montar meu PCh1
+            div class=gabinetes
+                div class=imagem-posta
+                        href=httpswww.pichau.com.brgabinete-gamer-pichau-dragoon-lateral-de-vidro-pgd-01-black
+                        alt='Gabinete games pichau'
+                        img src=Imagensgb01.jpg class=imagem-post alt=foto do gabinete gamer pichau
+                    a
+                div
+            div
+            div class=info-post
+                div class=tags-logo
+                    a href=httpswww.pichau.com.brhardwaregabinete alt='gabinetes pichau'
+                        img src=Imagenspichau-logo.png class='render' alt=logo da pichau
+                    a
+                div
+                div class=bloco-preco
+                    p class=valor
+                        span$269,90spanp
+                    p class=descricaoGabinete Gamer Pichau Dragon lateral de vidro BLACKp
+                div
+            div
+        section
+
+
+
+
+    main
+body

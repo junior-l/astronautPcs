@@ -1,0 +1,6 @@
+criar uma section para cada item; 
+Ex: section para o gabinete
+    section para o palaca mãe
+    section para o processador
+
+seria legal colocar uma rolagem na vertical dos itens. <!--ver no bootstrap-->
