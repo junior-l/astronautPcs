@@ -1,66 +1,40 @@
 body{
-    
+   
     margin: auto;
+    padding: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-/* Inicio do header */
-
-/* Background header */
-.hero{
-   
-    width: 100%;
-    background-image: url(./Imagens/BG-05.jpg);
-    background-size: cover;
-    height: 500px;
-    
-    
-    
-}
-
-/* Edição do H1 */
-.hero-text h1{
-   
-    color: rgb(255, 255, 255);
-    font-size: 90px;
-    font-weight: 900;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 0.8;
-    margin-top: 100px;
-    padding: 8px;
-    text-align: left;
-    text-transform: uppercase;
-    width:1px;
-    
-}
-#nav-main{
-    
-    margin-top: 0;
-    background-color:white;
-    width: 100%;
-    background-size: cover;
+h2{
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 0;
 }
 
 /* Header -> NAV (menu padrão) -> UL e Li */
-ul{
-   
-    z-index: 1;
-    padding: 10px;
-    text-align: center;
-    
-    
+
+
+#nav-main{
+
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
-/* Não esquecer de colocar os links */
+ul{
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+}
+
 li{
-    
+    padding: 10px;
     color: black;
     display: inline-block;
-    font-size: 18px;
-    font-weight: bolder;
-    margin-top: 0;
-    padding: 0 50px;
     cursor: pointer;
 }
-/* final do header */
+
 a{
     text-decoration: none;
     color: #333;
@@ -74,25 +48,54 @@ a:hover{
     color: #2387f1;
 }
 
-/* #gabinete - edição geral do card */
-
-#gabinete, #placamae {
-    
-    margin:auto;
-    width: 80%;
+/* Background header */
+.hero{
+   
+    background-image: url(./Imagens/BG-05.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 10px;
+ 
 }
 
-h2{
-    border: 2px #248eff solid;
-    width: 5px;
+/* Edição do H1 */
+.hero-text h1{
+   
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    font-weight: 900;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 0.8;
+    text-align: left;
+    text-transform: uppercase;
+    width:1px;
+    margin: 100px 0 0 10px;
 }
+
+
+/*section princpais */
+
+.main-section-default {
+
+
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+ 
+}
+
+
 /* dentro do card */
 
 .card{
     
-    border: rgb(73, 73, 73) solid 1px;
-    display: inline-block;
-    margin-top: 10px;
+      margin: 10px 0;
+      display: inline-block;
+      border: rgb(73, 73, 73) solid 1px;
+      width: 18em;
+      
 
 }
 
@@ -111,15 +114,15 @@ h2{
 /* Valor do produto */
 .card-value{
     
-    background: #2387f1;
+    background: #5d8df5;
     color: white;
     font-size:30px;
-    margin-top: 0;
     text-align: center;
-    padding: 1px 30px;
+    cursor: pointer;
+    margin-bottom: 0;
 }
 .card-value:hover{
-    background-color: #4ca1fc;
+    background-color: #366de4;
 }
 
 /* Logo do lugar onde esta sendo referenciado o produto */
@@ -142,5 +145,3 @@ h2{
 
 
 
-
-                    CHEIRO DE CU
