@@ -30,7 +30,7 @@ ul{
 
 li{
     padding: 10px;
-    color: black;
+    color: rgb(70, 69, 69);
     display: inline-block;
     cursor: pointer;
 }
@@ -141,4 +141,10 @@ a:hover{
 }
 
 
+#voltar{
+    display: inline-block;
+    float: right;
+    padding: 50px;
+    position: fixed;
 
+}
