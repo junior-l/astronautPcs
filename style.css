@@ -47,8 +47,7 @@ a:hover{
 
 /* Background header */
 .hero{
-    position: fixed;
-    z-index: 1;
+  
     background-image: url(./Imagens/BG-05.jpg);
     background-size: cover;
     width: 100%;
