@@ -1,7 +1,7 @@
 body{
    
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 h2{
@@ -56,7 +56,14 @@ a:hover{
  
 }
 
-/* Edição do H1 */
+
+@-ms-viewport{
+    
+    width: extend-to-zoom;
+    zoom: 1;   
+    
+}   
+    /* Edição do H1 */
 .hero-text h1{
    
     color: rgb(255, 255, 255);
@@ -75,9 +82,7 @@ a:hover{
 
 .main-section-default {
 
-
-  display: flex;
-  justify-content: center;
+    
   margin: auto;
   width: 80%;
  
@@ -91,7 +96,8 @@ a:hover{
       margin: 10px 0;
       display: inline-block;
       border: rgb(73, 73, 73) solid 1px;
-      width: 18em;
+      width: 18rem;/* revisar */
+      height: 50%;
       
 
 }
@@ -101,11 +107,15 @@ a:hover{
     filter: contrast(80%);
     filter: saturate(75%);
     filter:opacity(75%);
-    width: 18em;
+    width: 12em;
+    display: grid;
+    justify-self: center;
+    margin: 50px;
+    padding: 0;
 }
 .img-gab:hover{
     filter:none;
-    margin: auto;
+    
 }
 
 /* Valor do produto */
