@@ -1,6 +1,24 @@
 criar uma section para cada item; 
 Ex: section para o gabinete
-    section para o palaca m�e
-    section para o processador
+    section para o palaca m�e
+    section para o processador/* finalizado */
 
 seria legal colocar uma rolagem na vertical dos itens. <!--ver no bootstrap-->
+
+==== arrumar ====
+1 - organizar html
+    * tem uma class="img-gab" que esta sendo usado como padrão sendo que tem um nome da section de gabinete.
+    * arrumar os comentarios / comentarios sections
+    * alt='setor de hds pichau'. essas partes nem todas estão nas seções certas dos sites
+
+
+2 - organizar css
+    * a cor azul dos valores ta feio
+    * organizar comentariosusar margin auto no body do projeto
+    * revisar o EM(sempre relacionado a font) do projeto 
+
+3 - tornar responsivo
+    * usar @media fazer um css para cada web, screen, print. 
+
+4 - botão voltar
+5 - fixar mene (nav bar)
