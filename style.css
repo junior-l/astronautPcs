@@ -7,7 +7,7 @@ body{
 /* Header -> NAV (menu padrão) -> UL e Li */
 #navbar-header{
 
-    background: url(/Imagens/BG-05.jpg);
+    background: url(./Imagens/BG-05.jpg);
     min-height: 380px;
     width: 100%;
     background-position: center;
