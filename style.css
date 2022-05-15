@@ -186,13 +186,6 @@ main{
     clear: both;
 }
 
-#destaque{
-    border: solid 1px darkgreen;
-}
-#promocao{
-    border: solid 1px red;
-   
-}
 #promocao .container h2{
 
     font-size: 18px;
