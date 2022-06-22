@@ -1,5 +1,5 @@
 # Site desenvolvido para o estudo em HTML  e CSS
-se vc quiser ver como ele esta hj: https://junior-l.github.io/moniter-pre-os/
+se vc quiser ver como ele esta hj: [https://junior-l.github.io/moniter-pre-os/](https://junior-l.github.io/astronautPcs/)
 
 Bom esse site inicialmente chamado de monitoramento de preços e depois de monte seu senho foi um projeto que comecei ao iniciar meus estudos em HTML e CSS. 
 Conforme estou aprendendo também estou aplicando e no inicia a gente faz cada coisa :D
